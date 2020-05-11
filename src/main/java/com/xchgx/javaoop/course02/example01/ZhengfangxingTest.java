@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.xchgx.javaoop.course02.example01;
+
+/**
+ *
+ * @author 陈老师 <现代管理学院>
+ */
+public class ZhengfangxingTest {
+
+    public static void main(String[] args) {
+
+        Zhengfangxing zfx = new Zhengfangxing(3);
+
+        double jsZhouchang = zfx.jsZhouchang();
+        if (jsZhouchang != 12) {
+            System.out.println("计算周长出错");
+        } else {
+            System.out.println("jsZhouchang = " + jsZhouchang);
+        }
+
+        double jsMianji = zfx.jsMianji();
+        if (jsMianji != 9) {
+            System.out.println("计算面积出错");
+        } else {
+            System.out.println("jsMianji = " + jsMianji);
+        }
+    }
+}
