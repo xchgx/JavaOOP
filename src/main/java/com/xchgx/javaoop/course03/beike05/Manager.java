@@ -20,6 +20,6 @@ public class Manager {
         this.name = name;
         this.sex = sex;
         this.eid = eid;
-        this.key = key;
+        this.key = key; 
     }    
 }
