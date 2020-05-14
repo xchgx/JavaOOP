@@ -24,11 +24,12 @@ public class Bijiao {
     public static void main(String[] args) {
         Bijiao bj = new Bijiao();
         int max = bj.max(1,2);
-        if(max != 2){
-            System.out.println("max(int,int) 出错");
-        }else{
-            System.out.println("max = " + max);
-        }
+        System.out.println(max!=2?"出错了":max);
+//        if(max != 2){
+//            System.out.println("max(int,int) 出错");
+//        }else{
+//            System.out.println("max = " + max);
+//        }
         float max1 = bj.max(1.0f, 2.0f);
         if(max1 != 2){
             System.out.println("max(float,float)出错");

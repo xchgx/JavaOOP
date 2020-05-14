@@ -18,7 +18,7 @@ public class Sanjiaoxing extends Xingzhuang{ //三角形 继承 形状类
                 System.out.print("*");
             }
             System.out.println("");
-        }
+        } 
     }
     
     
