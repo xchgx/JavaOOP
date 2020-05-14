@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.xchgx.javaoop.course04.ketangbiji01;
+package com.xchgx.javaoop.course05.beike04;
+ 
 
 /**
  *
  * @author 陈老师 <现代管理学院>
  */
-public class Niu extends Dongwu{
-    
-    private String name;
-    
-    @Override
-    public void jiao() {
-        System.out.println("哞~~~");
+public class 诸葛亮 extends 王者英雄{
+
+
+    public 诸葛亮() {
     }
-    
+
+    public 诸葛亮( String jineng1Name){
+        super( "诸葛亮",jineng1Name);  
+    }
+     
 }
