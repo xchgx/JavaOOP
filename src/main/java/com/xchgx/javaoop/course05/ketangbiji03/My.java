@@ -31,6 +31,11 @@ public class My {//我
         System.out.println("我吃了一个"+shushi.getName()
                 +",恢复了 +"+shushi.getHp());
     }
+    public void eatting(Meat shushi){//吃熟食
+        this.hp+=shushi.getHp();
+        System.out.println("我吃了一个"+shushi.getName()
+                +",恢复了 +"+shushi.getHp());
+    }
     
     
     public int getHp() {
