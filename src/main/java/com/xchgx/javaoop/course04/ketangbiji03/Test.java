@@ -13,7 +13,8 @@ public class Test {
     public static void main(String[] args) {
         Xingzhuang xz1 = new Sanjiaoxing();
         Xingzhuang xz2 = new Sibianxing();
-        Xingzhuang xz3 = new Wubianxing();
+        Xingzhuang xz3 = new Wubianxing(); 
+        
         System.out.println("输出三角形");
         xz1.draw();//输出三角形文字
         System.out.println("输出四边形");
