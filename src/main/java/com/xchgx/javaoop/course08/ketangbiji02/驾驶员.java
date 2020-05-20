@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.xchgx.javaoop.course08.beike06;
+package com.xchgx.javaoop.course08.ketangbiji02;
 
 /**
  *
  * @author Administrator
  */
-public interface  Driver {//驾驶员接口
-     int a= 1;
-    void kaiche();//开车
+public interface 驾驶员 {
+    public void 开车();//你是驾驶员，就一定能开车
 }

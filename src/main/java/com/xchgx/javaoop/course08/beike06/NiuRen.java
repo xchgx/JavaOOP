@@ -9,7 +9,7 @@ package com.xchgx.javaoop.course08.beike06;
  *
  * @author Administrator
  */
-public class NiuRen implements Driver,Racer,Teach{
+public class NiuRen implements  Driver,Racer,Teach{
 
     @Override
     public void kaiche() {
