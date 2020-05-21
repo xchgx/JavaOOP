@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course04.beike02;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class WorkerTest { //这个测试类是做什么的？为什么要测试
     public static void main(String[] args) {

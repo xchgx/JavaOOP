@@ -9,7 +9,7 @@ import com.xchgx.javaoop.course04.beike03.*;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class 诸葛亮 extends 王者英雄{
 

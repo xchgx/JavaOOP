@@ -21,11 +21,7 @@ public abstract class Food {
     public void setName(String name) {//抽象类可以存在普通方法
         this.name = name;
     }
-
-    /**
-     *
-     * @param args
-     */
+ 
     public static  void sayHi(String args[]) {////抽象类可以存在静态方法
         
     }

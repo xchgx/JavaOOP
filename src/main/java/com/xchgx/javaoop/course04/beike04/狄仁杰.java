@@ -8,7 +8,7 @@ package com.xchgx.javaoop.course04.beike04;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class 狄仁杰 {
     private  String heroname = "狄仁杰";//英雄名称

@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course06.beike02;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public final class Person { // 人员类
     private  String name;  //姓名

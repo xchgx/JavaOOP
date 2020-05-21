@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.beike01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Bijiao {
     public int max(int a, int b){

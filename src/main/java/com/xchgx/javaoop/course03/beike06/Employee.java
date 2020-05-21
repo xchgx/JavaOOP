@@ -8,7 +8,7 @@ package com.xchgx.javaoop.course03.beike06;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Employee {
     private String name;

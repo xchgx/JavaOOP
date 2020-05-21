@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.ketangbiji01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Bijiao {//比较类， 用于数字比较
 //    public long max(float b, int a){return 1;}//(1,2.2) //1.1  2.2

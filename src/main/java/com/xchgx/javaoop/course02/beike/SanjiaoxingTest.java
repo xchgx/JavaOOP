@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course02.beike;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class SanjiaoxingTest {
     public static void main(String[] args) {

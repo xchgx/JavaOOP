@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course06.beike04;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Person {
     private final String name = "张三"; //变量是终态的final，必须要初始化

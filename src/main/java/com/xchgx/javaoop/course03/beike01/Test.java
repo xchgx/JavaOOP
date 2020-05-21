@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course03.beike01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Test {
 

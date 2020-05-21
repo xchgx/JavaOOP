@@ -8,7 +8,7 @@ package com.xchgx.javaoop.course07.hero.beike06;
 /**
  * 版本 1.0 
  * 最简单的开场
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class GameStart {
     public static void main(String[] args) {//单纯的输出，没有变量，无法计算血量

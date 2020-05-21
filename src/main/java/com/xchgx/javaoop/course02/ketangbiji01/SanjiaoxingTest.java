@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course02.ketangbiji01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class SanjiaoxingTest {//三角形的测试类
     public static void main(String[] args) {

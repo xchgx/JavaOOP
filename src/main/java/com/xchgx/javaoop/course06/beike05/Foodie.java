@@ -9,7 +9,7 @@ import com.xchgx.javaoop.course05.beike03.*;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Foodie { //吃货类
     private String name="我";

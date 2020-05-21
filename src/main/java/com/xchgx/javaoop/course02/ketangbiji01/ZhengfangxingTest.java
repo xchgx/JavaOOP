@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course02.ketangbiji01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class ZhengfangxingTest {
 

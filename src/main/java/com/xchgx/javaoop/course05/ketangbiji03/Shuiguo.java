@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.ketangbiji03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Shuiguo {//水果类:苹果、柠檬、西瓜
     private int hp;//不是水果的血量，而是水果提供的恢复值

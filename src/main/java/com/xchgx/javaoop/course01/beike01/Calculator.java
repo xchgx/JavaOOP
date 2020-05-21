@@ -2,7 +2,7 @@ package com.xchgx.javaoop.course01.beike01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Calculator{
     private int number1;

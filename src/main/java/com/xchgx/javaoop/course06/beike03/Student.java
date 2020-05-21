@@ -8,7 +8,7 @@ package com.xchgx.javaoop.course06.beike03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Student extends Person{ //Person不是终态的(final)可以继承
     

@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course06.beike05;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Shuiguo {//水果类
     private int hp;

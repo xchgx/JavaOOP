@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course04.ketangbiji03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Sanjiaoxing extends Xingzhuang{ //三角形 继承 形状类
 

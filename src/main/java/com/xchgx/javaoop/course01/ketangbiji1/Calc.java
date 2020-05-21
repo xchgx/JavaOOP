@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course01.ketangbiji1;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Calc {//计算器类
     private int a;//运算数1

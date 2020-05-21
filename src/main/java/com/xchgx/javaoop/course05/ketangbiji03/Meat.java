@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.ketangbiji03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Meat {//肉类
     private int hp;//提供的回复量

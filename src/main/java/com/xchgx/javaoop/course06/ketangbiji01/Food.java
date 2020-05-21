@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course06.ketangbiji01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Food {//食物类
     private int hp;//恢复值

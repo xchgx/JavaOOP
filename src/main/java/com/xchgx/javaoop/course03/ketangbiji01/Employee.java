@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course03.ketangbiji01;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Employee { //员工类
     private String name;//姓名

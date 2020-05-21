@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.ketangbiji03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class My {//我
     private int hp;//血量

@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course03.beike03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Student extends Person{
     private String sno;

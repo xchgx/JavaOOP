@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course05.beike02;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class UserTest {
     public static void main(String[] args) {

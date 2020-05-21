@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course02.beike;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Sanjiaoxing {//三角形
     private double a;

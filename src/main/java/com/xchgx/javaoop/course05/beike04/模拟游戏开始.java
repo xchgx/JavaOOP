@@ -9,7 +9,7 @@ import com.xchgx.javaoop.course04.beike03.*;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class 模拟游戏开始 {
     public static void main(String[] args) {

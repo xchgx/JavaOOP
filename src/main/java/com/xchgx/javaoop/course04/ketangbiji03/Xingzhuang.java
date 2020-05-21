@@ -7,7 +7,7 @@ package com.xchgx.javaoop.course04.ketangbiji03;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Xingzhuang { //形状类 
     public void draw(){//所有形状都有的方法

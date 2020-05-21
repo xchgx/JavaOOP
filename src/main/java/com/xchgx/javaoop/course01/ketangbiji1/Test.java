@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author 陈老师 <现代管理学院>
+ * @author 陈老师 现代管理学院
  */
 public class Test {
     public static void main(String[] args) throws IOException {
