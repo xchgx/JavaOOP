@@ -1,0 +1,355 @@
+@startuml
+abstract class com.xchgx.javaoop.course07.beike01.Xingzhuang
+abstract class com.xchgx.javaoop.course07.beike02.Food
+abstract class com.xchgx.javaoop.course07.beike03.Food
+abstract class com.xchgx.javaoop.course07.beike03.Meat
+abstract class com.xchgx.javaoop.course07.ketangbiji01.Person
+abstract class com.xchgx.javaoop.course07.ketangbiji02.Parent
+abstract class com.xchgx.javaoop.course07.ketangbiji03.Parent
+abstract class com.xchgx.javaoop.course07.ketangbiji05.Xingzhuang
+annotation java.lang.Override
+class com.xchgx.javaoop.course01.beike01.Calculator
+class com.xchgx.javaoop.course01.beike01.Student
+class com.xchgx.javaoop.course01.beike01.Test
+class com.xchgx.javaoop.course01.demo.Calc
+class com.xchgx.javaoop.course01.demo.Test
+class com.xchgx.javaoop.course01.ketangbiji1.Calc
+class com.xchgx.javaoop.course01.ketangbiji1.Test
+class com.xchgx.javaoop.course02.beike.Changfangxing
+class com.xchgx.javaoop.course02.beike.ChangfangxingTest
+class com.xchgx.javaoop.course02.beike.Sanjiaoxing
+class com.xchgx.javaoop.course02.beike.SanjiaoxingTest
+class com.xchgx.javaoop.course02.beike.Tixing
+class com.xchgx.javaoop.course02.beike.TixingTest
+class com.xchgx.javaoop.course02.beike.Zhengfangxing
+class com.xchgx.javaoop.course02.beike.ZhengfangxingTest
+class com.xchgx.javaoop.course02.ketangbiji01.RandomStudentTest
+class com.xchgx.javaoop.course02.ketangbiji01.Sanjiaoxing
+class com.xchgx.javaoop.course02.ketangbiji01.SanjiaoxingTest
+class com.xchgx.javaoop.course02.ketangbiji01.Tixing
+class com.xchgx.javaoop.course02.ketangbiji01.TixingTest
+class com.xchgx.javaoop.course02.ketangbiji01.Zhengfangxing
+class com.xchgx.javaoop.course02.ketangbiji01.ZhengfangxingTest
+class com.xchgx.javaoop.course03.beike01.Employee
+class com.xchgx.javaoop.course03.beike01.Manager
+class com.xchgx.javaoop.course03.beike01.Test
+class com.xchgx.javaoop.course03.beike02.Person
+class com.xchgx.javaoop.course03.beike02.Student
+class com.xchgx.javaoop.course03.beike02.Test
+class com.xchgx.javaoop.course03.beike03.Person
+class com.xchgx.javaoop.course03.beike03.Student
+class com.xchgx.javaoop.course03.beike03.Test
+class com.xchgx.javaoop.course03.beike031.Child
+class com.xchgx.javaoop.course03.beike031.Parent
+class com.xchgx.javaoop.course03.beike031.Test
+class com.xchgx.javaoop.course03.beike04.Pentagon
+class com.xchgx.javaoop.course03.beike04.Rectangle
+class com.xchgx.javaoop.course03.beike04.Shape
+class com.xchgx.javaoop.course03.beike04.Test
+class com.xchgx.javaoop.course03.beike04.Triangle
+class com.xchgx.javaoop.course03.beike05.Employee
+class com.xchgx.javaoop.course03.beike05.Manager
+class com.xchgx.javaoop.course03.beike06.Employee
+class com.xchgx.javaoop.course03.beike06.Manager
+class com.xchgx.javaoop.course03.beike06.Test
+class com.xchgx.javaoop.course03.ketangbiji01.Employee
+class com.xchgx.javaoop.course03.ketangbiji01.Manager
+class com.xchgx.javaoop.course03.ketangbiji01.Manager2
+class com.xchgx.javaoop.course03.ketangbiji01.Manager2Test
+class com.xchgx.javaoop.course03.ketangbiji02.Person
+class com.xchgx.javaoop.course03.ketangbiji02.Student
+class com.xchgx.javaoop.course03.ketangbiji02.StudentTest
+class com.xchgx.javaoop.course04.beike01.Dongwu
+class com.xchgx.javaoop.course04.beike01.Hu
+class com.xchgx.javaoop.course04.beike01.Niu
+class com.xchgx.javaoop.course04.beike01.Shu
+class com.xchgx.javaoop.course04.beike01.Test
+class com.xchgx.javaoop.course04.beike01.Test2
+class com.xchgx.javaoop.course04.beike02.Caigou
+class com.xchgx.javaoop.course04.beike02.Programer
+class com.xchgx.javaoop.course04.beike02.Worker
+class com.xchgx.javaoop.course04.beike02.WorkerTest
+class com.xchgx.javaoop.course04.beike02.Xiaoshou
+class com.xchgx.javaoop.course04.ketangbiji01.Dongwu
+class com.xchgx.javaoop.course04.ketangbiji01.Niu
+class com.xchgx.javaoop.course04.ketangbiji01.Shu
+class com.xchgx.javaoop.course04.ketangbiji01.Test
+class com.xchgx.javaoop.course04.ketangbiji02.Caigou
+class com.xchgx.javaoop.course04.ketangbiji02.Employee
+class com.xchgx.javaoop.course04.ketangbiji02.Programer
+class com.xchgx.javaoop.course04.ketangbiji02.Test
+class com.xchgx.javaoop.course04.ketangbiji02.Xiaoshou
+class com.xchgx.javaoop.course04.ketangbiji03.Sanjiaoxing
+class com.xchgx.javaoop.course04.ketangbiji03.Sibianxing
+class com.xchgx.javaoop.course04.ketangbiji03.Test
+class com.xchgx.javaoop.course04.ketangbiji03.Wubianxing
+class com.xchgx.javaoop.course04.ketangbiji03.Xingzhuang
+class com.xchgx.javaoop.course05.beike01.Bijiao
+class com.xchgx.javaoop.course05.beike02.User
+class com.xchgx.javaoop.course05.beike02.UserTest
+class com.xchgx.javaoop.course05.beike03.Foodie
+class com.xchgx.javaoop.course05.beike03.Shuiguo
+class com.xchgx.javaoop.course05.beike03.Shushi
+class com.xchgx.javaoop.course05.beike03.Test
+class com.xchgx.javaoop.course05.ketangbiji01.Bijiao
+class com.xchgx.javaoop.course05.ketangbiji01.Test
+class com.xchgx.javaoop.course05.ketangbiji02.Test
+class com.xchgx.javaoop.course05.ketangbiji02.User
+class com.xchgx.javaoop.course05.ketangbiji03.Meat
+class com.xchgx.javaoop.course05.ketangbiji03.My
+class com.xchgx.javaoop.course05.ketangbiji03.Shuiguo
+class com.xchgx.javaoop.course05.ketangbiji03.Shushi
+class com.xchgx.javaoop.course05.ketangbiji03.Test
+class com.xchgx.javaoop.course05.ketangbiji04.User
+class com.xchgx.javaoop.course06.beike01.Food
+class com.xchgx.javaoop.course06.beike01.Meat
+class com.xchgx.javaoop.course06.beike01.My
+class com.xchgx.javaoop.course06.beike01.Shuiguo
+class com.xchgx.javaoop.course06.beike01.Shushi
+class com.xchgx.javaoop.course06.beike01.Test
+class com.xchgx.javaoop.course06.beike02.Person
+class com.xchgx.javaoop.course06.beike02.Student
+class com.xchgx.javaoop.course06.beike03.Person
+class com.xchgx.javaoop.course06.beike03.Student
+class com.xchgx.javaoop.course06.beike04.Person
+class com.xchgx.javaoop.course06.beike05.Foodie
+class com.xchgx.javaoop.course06.beike05.Shuiguo
+class com.xchgx.javaoop.course06.beike05.Shushi
+class com.xchgx.javaoop.course06.beike05.Test
+class com.xchgx.javaoop.course06.ketangbiji01.Food
+class com.xchgx.javaoop.course06.ketangbiji01.Meat
+class com.xchgx.javaoop.course06.ketangbiji01.Mianbao
+class com.xchgx.javaoop.course06.ketangbiji01.My
+class com.xchgx.javaoop.course06.ketangbiji01.Shuiguo
+class com.xchgx.javaoop.course06.ketangbiji01.Shushi
+class com.xchgx.javaoop.course06.ketangbiji01.Test
+class com.xchgx.javaoop.course07.beike01.Sanjiaoxing
+class com.xchgx.javaoop.course07.beike01.XingzhuangTest
+class com.xchgx.javaoop.course07.beike01.Zhengfangxing
+class com.xchgx.javaoop.course07.beike03.FoodTest
+class com.xchgx.javaoop.course07.beike03.Shuiguo
+class com.xchgx.javaoop.course07.beike04.Sanjiaoxing
+class com.xchgx.javaoop.course07.beike04.Zhengfangxing
+class com.xchgx.javaoop.course07.beike05.Child
+class com.xchgx.javaoop.course07.beike05.Parent
+class com.xchgx.javaoop.course07.beike05.Test
+class com.xchgx.javaoop.course07.hero.beike06.GameStart
+class com.xchgx.javaoop.course07.hero.beike07.Drj
+class com.xchgx.javaoop.course07.hero.beike07.GameStart2
+class com.xchgx.javaoop.course07.hero.beike07.Zgl
+class com.xchgx.javaoop.course07.hero.beike08.Cyj
+class com.xchgx.javaoop.course07.hero.beike08.Drj
+class com.xchgx.javaoop.course07.hero.beike08.GameStart3
+class com.xchgx.javaoop.course07.hero.beike08.Hero
+class com.xchgx.javaoop.course07.hero.beike08.Zgl
+class com.xchgx.javaoop.course07.ketangbiji01.Test
+class com.xchgx.javaoop.course07.ketangbiji02.Child
+class com.xchgx.javaoop.course07.ketangbiji02.Test
+class com.xchgx.javaoop.course07.ketangbiji03.Child
+class com.xchgx.javaoop.course07.ketangbiji03.Test
+class com.xchgx.javaoop.course07.ketangbiji04.Sanjiaoxing
+class com.xchgx.javaoop.course07.ketangbiji04.Zhengfangxing
+class com.xchgx.javaoop.course07.ketangbiji05.Sjx
+class com.xchgx.javaoop.course07.ketangbiji05.Test
+class com.xchgx.javaoop.course08.beike01.ChildJiekouImpl
+class com.xchgx.javaoop.course08.beike01.ChildJiekouImplTest
+class com.xchgx.javaoop.course08.beike01.JiekouImpl
+class com.xchgx.javaoop.course08.beike01.JiekouTest
+class com.xchgx.javaoop.course08.beike03.DriverTest
+class com.xchgx.javaoop.course08.beike04.RacerPeople
+class com.xchgx.javaoop.course08.beike04.RacerTest
+class com.xchgx.javaoop.course08.beike05.TeachTest
+class com.xchgx.javaoop.course08.beike05.Teacher
+class com.xchgx.javaoop.course08.beike06.NiuRen
+class com.xchgx.javaoop.course08.beike06.NiuRenTest
+class com.xchgx.javaoop.course08.beike07.InterCpu
+class com.xchgx.javaoop.course08.beike07.Test
+class com.xchgx.javaoop.course08.ketangbiji01.ChildJiekouImpl
+class com.xchgx.javaoop.course08.ketangbiji01.ChildJiekouTest
+class com.xchgx.javaoop.course08.ketangbiji01.JiekouImpl
+class com.xchgx.javaoop.course08.ketangbiji01.JiekouTest
+class com.xchgx.javaoop.course08.ketangbiji01.Man
+class com.xchgx.javaoop.course08.ketangbiji02.Test
+class com.xchgx.javaoop.course09.beike01.Student
+class com.xchgx.javaoop.course09.beike02.Teacher
+class com.xchgx.javaoop.course09.beike03.FindMax
+class com.xchgx.javaoop.course09.ketangbiji01.Test
+class com.xchgx.javaoop.course09.ketangbiji01.Test2
+class com.xchgx.javaoop.course09.ketangbiji01.Test3
+class com.xchgx.javaoop.course10.beike01.DataCount
+class com.xchgx.javaoop.course10.beike01.DataCountTest
+class com.xchgx.javaoop.course10.ketangbiji01.DataCount
+class com.xchgx.javaoop.course10.ketangbiji01.DataCountTest
+class com.xchgx.javaoop.course11.beike01.DataCount
+class com.xchgx.javaoop.course11.beike01.DataCountTest
+class com.xchgx.javaoop.course11.beike02.DataCount
+class com.xchgx.javaoop.course11.beike02.DataCountTest
+class com.xchgx.javaoop.course11.ketangbiji01.DataCount
+class com.xchgx.javaoop.course11.ketangbiji01.DataCountTest
+class com.xchgx.javaoop.course12.beike01.ArrayListTest
+class com.xchgx.javaoop.course12.beike01.TwoArrayTest
+class com.xchgx.javaoop.course12.beike01.TwoArrayYanghuiTest
+class com.xchgx.javaoop.course12.beike02.App
+class com.xchgx.javaoop.course12.beike02.App2
+class com.xchgx.javaoop.course12.beike02.App3
+class com.xchgx.javaoop.course12.beike02.Manager
+class com.xchgx.javaoop.course12.beike02.Student
+class com.xchgx.javaoop.course12.ketangbiji01.TwoArrayTest
+class com.xchgx.javaoop.course12.ketangbiji01.TwoArrayYanghuiTest
+class com.xchgx.javaoop.course12.ketangbiji02.ArrayListTest
+class com.xchgx.javaoop.course12.ketangbiji03.Manager
+class com.xchgx.javaoop.course12.ketangbiji03.Student
+class com.xchgx.javaoop.course13.beike01.LiaoTianJiLu
+class com.xchgx.javaoop.course13.beike01.StringTest
+class com.xchgx.javaoop.course13.beike01.Student
+class com.xchgx.javaoop.course13.beike02.Manager
+class com.xchgx.javaoop.course13.beike02.Student
+class java.io.BufferedReader
+class java.io.File
+class java.io.FileInputStream
+class java.io.FileNotFoundException
+class java.io.IOException
+class java.io.InputStreamReader
+class java.util.ArrayList
+class java.util.List
+class java.util.Scanner
+interface com.xchgx.javaoop.course08.beike01.ChildJiekou
+interface com.xchgx.javaoop.course08.beike01.Jiekou
+interface com.xchgx.javaoop.course08.beike02.Driver
+interface com.xchgx.javaoop.course08.beike03.Driver
+interface com.xchgx.javaoop.course08.beike04.Racer
+interface com.xchgx.javaoop.course08.beike05.Teach
+interface com.xchgx.javaoop.course08.beike06.Driver
+interface com.xchgx.javaoop.course08.beike06.Racer
+interface com.xchgx.javaoop.course08.beike06.Teach
+interface com.xchgx.javaoop.course08.beike07.Cpu
+interface com.xchgx.javaoop.course08.beike07.Memery
+interface com.xchgx.javaoop.course08.ketangbiji01.ChildJiekou
+interface com.xchgx.javaoop.course08.ketangbiji01.Jiekou
+com.xchgx.javaoop.course07.beike03.Meat --|> com.xchgx.javaoop.course07.beike03.Food
+com.xchgx.javaoop.course01.ketangbiji1.Test ..> java.io.BufferedReader
+com.xchgx.javaoop.course01.ketangbiji1.Test ..> java.io.IOException
+com.xchgx.javaoop.course01.ketangbiji1.Test ..> java.io.InputStreamReader
+com.xchgx.javaoop.course03.beike01.Employee ..> java.lang.Override
+com.xchgx.javaoop.course03.beike01.Manager --|> com.xchgx.javaoop.course03.beike01.Employee
+com.xchgx.javaoop.course03.beike02.Student --|> com.xchgx.javaoop.course03.beike02.Person
+com.xchgx.javaoop.course03.beike03.Student ..> java.lang.Override
+com.xchgx.javaoop.course03.beike03.Student --|> com.xchgx.javaoop.course03.beike03.Person
+com.xchgx.javaoop.course03.beike031.Child --|> com.xchgx.javaoop.course03.beike031.Parent
+com.xchgx.javaoop.course03.beike04.Pentagon ..> java.lang.Override
+com.xchgx.javaoop.course03.beike04.Pentagon --|> com.xchgx.javaoop.course03.beike04.Shape
+com.xchgx.javaoop.course03.beike04.Rectangle ..> java.lang.Override
+com.xchgx.javaoop.course03.beike04.Rectangle --|> com.xchgx.javaoop.course03.beike04.Shape
+com.xchgx.javaoop.course03.beike04.Triangle ..> java.lang.Override
+com.xchgx.javaoop.course03.beike04.Triangle --|> com.xchgx.javaoop.course03.beike04.Shape
+com.xchgx.javaoop.course03.beike06.Employee ..> java.lang.Override
+com.xchgx.javaoop.course03.beike06.Manager --|> com.xchgx.javaoop.course03.beike06.Employee
+com.xchgx.javaoop.course03.ketangbiji01.Manager2 --|> com.xchgx.javaoop.course03.ketangbiji01.Employee
+com.xchgx.javaoop.course03.ketangbiji02.Student ..> java.lang.Override
+com.xchgx.javaoop.course03.ketangbiji02.Student --|> com.xchgx.javaoop.course03.ketangbiji02.Person
+com.xchgx.javaoop.course04.beike01.Hu ..> java.lang.Override
+com.xchgx.javaoop.course04.beike01.Hu --|> com.xchgx.javaoop.course04.beike01.Dongwu
+com.xchgx.javaoop.course04.beike01.Niu ..> java.lang.Override
+com.xchgx.javaoop.course04.beike01.Niu --|> com.xchgx.javaoop.course04.beike01.Dongwu
+com.xchgx.javaoop.course04.beike01.Shu ..> java.lang.Override
+com.xchgx.javaoop.course04.beike01.Shu --|> com.xchgx.javaoop.course04.beike01.Dongwu
+com.xchgx.javaoop.course04.beike02.Caigou ..> java.lang.Override
+com.xchgx.javaoop.course04.beike02.Caigou --|> com.xchgx.javaoop.course04.beike02.Worker
+com.xchgx.javaoop.course04.beike02.Programer ..> java.lang.Override
+com.xchgx.javaoop.course04.beike02.Programer --|> com.xchgx.javaoop.course04.beike02.Worker
+com.xchgx.javaoop.course04.beike02.Xiaoshou ..> java.lang.Override
+com.xchgx.javaoop.course04.beike02.Xiaoshou --|> com.xchgx.javaoop.course04.beike02.Worker
+com.xchgx.javaoop.course04.ketangbiji01.Niu ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji01.Niu --|> com.xchgx.javaoop.course04.ketangbiji01.Dongwu
+com.xchgx.javaoop.course04.ketangbiji01.Shu ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji01.Shu --|> com.xchgx.javaoop.course04.ketangbiji01.Dongwu
+com.xchgx.javaoop.course04.ketangbiji02.Caigou ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji02.Caigou --|> com.xchgx.javaoop.course04.ketangbiji02.Employee
+com.xchgx.javaoop.course04.ketangbiji02.Programer ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji02.Programer --|> com.xchgx.javaoop.course04.ketangbiji02.Employee
+com.xchgx.javaoop.course04.ketangbiji02.Xiaoshou ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji02.Xiaoshou --|> com.xchgx.javaoop.course04.ketangbiji02.Employee
+com.xchgx.javaoop.course04.ketangbiji03.Sanjiaoxing ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji03.Sanjiaoxing --|> com.xchgx.javaoop.course04.ketangbiji03.Xingzhuang
+com.xchgx.javaoop.course04.ketangbiji03.Sibianxing ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji03.Sibianxing --|> com.xchgx.javaoop.course04.ketangbiji03.Xingzhuang
+com.xchgx.javaoop.course04.ketangbiji03.Wubianxing ..> java.lang.Override
+com.xchgx.javaoop.course04.ketangbiji03.Wubianxing --|> com.xchgx.javaoop.course04.ketangbiji03.Xingzhuang
+com.xchgx.javaoop.course05.beike02.User ..> java.lang.Override
+com.xchgx.javaoop.course05.beike03.Foodie ..> java.lang.Override
+com.xchgx.javaoop.course06.beike01.Meat --|> com.xchgx.javaoop.course06.beike01.Food
+com.xchgx.javaoop.course06.beike01.Shuiguo --|> com.xchgx.javaoop.course06.beike01.Food
+com.xchgx.javaoop.course06.beike01.Shushi --|> com.xchgx.javaoop.course06.beike01.Food
+com.xchgx.javaoop.course06.beike03.Student --|> com.xchgx.javaoop.course06.beike03.Person
+com.xchgx.javaoop.course06.beike05.Foodie ..> java.lang.Override
+com.xchgx.javaoop.course06.ketangbiji01.Meat --|> com.xchgx.javaoop.course06.ketangbiji01.Food
+com.xchgx.javaoop.course06.ketangbiji01.Mianbao --|> com.xchgx.javaoop.course06.ketangbiji01.Food
+com.xchgx.javaoop.course06.ketangbiji01.Shuiguo --|> com.xchgx.javaoop.course06.ketangbiji01.Food
+com.xchgx.javaoop.course06.ketangbiji01.Shushi --|> com.xchgx.javaoop.course06.ketangbiji01.Food
+com.xchgx.javaoop.course07.beike01.Sanjiaoxing --|> com.xchgx.javaoop.course07.beike01.Xingzhuang
+com.xchgx.javaoop.course07.beike01.Sanjiaoxing ..> java.lang.Override
+com.xchgx.javaoop.course07.beike01.Zhengfangxing --|> com.xchgx.javaoop.course07.beike01.Xingzhuang
+com.xchgx.javaoop.course07.beike01.Zhengfangxing ..> java.lang.Override
+com.xchgx.javaoop.course07.beike03.Shuiguo --|> com.xchgx.javaoop.course07.beike03.Food
+com.xchgx.javaoop.course07.beike03.Shuiguo ..> java.lang.Override
+com.xchgx.javaoop.course07.beike05.Child ..> java.lang.Override
+com.xchgx.javaoop.course07.beike05.Child --|> com.xchgx.javaoop.course07.beike05.Parent
+com.xchgx.javaoop.course07.hero.beike07.Drj ..> java.lang.Override
+com.xchgx.javaoop.course07.hero.beike07.Zgl ..> java.lang.Override
+com.xchgx.javaoop.course07.hero.beike08.Cyj --|> com.xchgx.javaoop.course07.hero.beike08.Hero
+com.xchgx.javaoop.course07.hero.beike08.Drj --|> com.xchgx.javaoop.course07.hero.beike08.Hero
+com.xchgx.javaoop.course07.hero.beike08.Zgl --|> com.xchgx.javaoop.course07.hero.beike08.Hero
+com.xchgx.javaoop.course07.ketangbiji02.Child --|> com.xchgx.javaoop.course07.ketangbiji02.Parent
+com.xchgx.javaoop.course07.ketangbiji03.Child --|> com.xchgx.javaoop.course07.ketangbiji03.Parent
+com.xchgx.javaoop.course07.ketangbiji05.Sjx --|> com.xchgx.javaoop.course07.ketangbiji05.Xingzhuang
+com.xchgx.javaoop.course07.ketangbiji05.Sjx ..> java.lang.Override
+com.xchgx.javaoop.course08.beike01.ChildJiekouImpl ..> java.lang.Override
+com.xchgx.javaoop.course08.beike01.ChildJiekouImpl --|> com.xchgx.javaoop.course08.beike01.ChildJiekou
+com.xchgx.javaoop.course08.beike01.JiekouImpl ..> java.lang.Override
+com.xchgx.javaoop.course08.beike01.JiekouImpl --|> com.xchgx.javaoop.course08.beike01.Jiekou
+com.xchgx.javaoop.course08.beike04.RacerPeople ..> java.lang.Override
+com.xchgx.javaoop.course08.beike04.RacerPeople --|> com.xchgx.javaoop.course08.beike04.Racer
+com.xchgx.javaoop.course08.beike05.Teacher ..> java.lang.Override
+com.xchgx.javaoop.course08.beike05.Teacher --|> com.xchgx.javaoop.course08.beike05.Teach
+com.xchgx.javaoop.course08.beike06.NiuRen ..> java.lang.Override
+com.xchgx.javaoop.course08.beike06.NiuRen --|> com.xchgx.javaoop.course08.beike06.Driver
+com.xchgx.javaoop.course08.beike06.NiuRen --|> com.xchgx.javaoop.course08.beike06.Racer
+com.xchgx.javaoop.course08.beike06.NiuRen --|> com.xchgx.javaoop.course08.beike06.Teach
+com.xchgx.javaoop.course08.beike07.InterCpu ..> java.lang.Override
+com.xchgx.javaoop.course08.beike07.InterCpu --|> com.xchgx.javaoop.course08.beike07.Cpu
+com.xchgx.javaoop.course08.ketangbiji01.ChildJiekouImpl ..> java.lang.Override
+com.xchgx.javaoop.course08.ketangbiji01.ChildJiekouImpl --|> com.xchgx.javaoop.course08.ketangbiji01.ChildJiekou
+com.xchgx.javaoop.course08.ketangbiji01.JiekouImpl ..> java.lang.Override
+com.xchgx.javaoop.course08.ketangbiji01.JiekouImpl --|> com.xchgx.javaoop.course08.ketangbiji01.Jiekou
+com.xchgx.javaoop.course09.beike02.Teacher ..> com.xchgx.javaoop.course09.beike01.Student
+com.xchgx.javaoop.course12.beike01.ArrayListTest ..> java.util.ArrayList
+com.xchgx.javaoop.course12.beike01.ArrayListTest ..> java.util.List
+com.xchgx.javaoop.course12.beike02.App ..> java.io.BufferedReader
+com.xchgx.javaoop.course12.beike02.App ..> java.io.File
+com.xchgx.javaoop.course12.beike02.App ..> java.io.FileInputStream
+com.xchgx.javaoop.course12.beike02.App ..> java.io.IOException
+com.xchgx.javaoop.course12.beike02.App ..> java.io.InputStreamReader
+com.xchgx.javaoop.course12.beike02.App ..> java.util.ArrayList
+com.xchgx.javaoop.course12.beike02.App ..> java.util.Scanner
+com.xchgx.javaoop.course12.beike02.App2 ..> java.util.ArrayList
+com.xchgx.javaoop.course12.beike02.App3 ..> java.util.ArrayList
+com.xchgx.javaoop.course12.beike02.Manager ..> java.util.ArrayList
+com.xchgx.javaoop.course12.ketangbiji02.ArrayListTest ..> java.util.ArrayList
+com.xchgx.javaoop.course12.ketangbiji03.Manager ..> java.util.ArrayList
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.BufferedReader
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.File
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.FileInputStream
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.FileNotFoundException
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.IOException
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.io.InputStreamReader
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.util.ArrayList
+com.xchgx.javaoop.course13.beike01.LiaoTianJiLu ..> java.util.Scanner
+com.xchgx.javaoop.course13.beike02.Manager ..> java.io.BufferedReader
+com.xchgx.javaoop.course13.beike02.Manager ..> java.io.FileInputStream
+com.xchgx.javaoop.course13.beike02.Manager ..> java.io.FileNotFoundException
+com.xchgx.javaoop.course13.beike02.Manager ..> java.io.IOException
+com.xchgx.javaoop.course13.beike02.Manager ..> java.io.InputStreamReader
+com.xchgx.javaoop.course13.beike02.Manager ..> java.util.ArrayList
+com.xchgx.javaoop.course08.beike01.ChildJiekou --|> com.xchgx.javaoop.course08.beike01.Jiekou
+com.xchgx.javaoop.course08.ketangbiji01.ChildJiekou --|> com.xchgx.javaoop.course08.ketangbiji01.Jiekou
+@enduml
