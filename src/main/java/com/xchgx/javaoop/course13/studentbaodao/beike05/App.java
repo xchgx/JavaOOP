@@ -19,15 +19,9 @@ public class App {
         //我们用可变长度的数组对象ArrayList保存我们所有的学生。
         ArrayList<String> names = new ArrayList<>();
         //这里初始化一个示例数据，作为我们的全校学生
-        names.add("刘一");
-        names.add("陈二");
-        names.add("张三");
-        names.add("李四");
-        names.add("王五");
-        names.add("赵六");
-        names.add("孙七");
-        names.add("周八");
-        names.add("吴九");
+        names.add("刘一");        names.add("陈二");        names.add("张三");
+        names.add("李四");        names.add("王五");        names.add("赵六");
+        names.add("孙七");        names.add("周八");        names.add("吴九");
         names.add("郑十");
         //名单初始化完毕，接下来模拟报到。
         String[] baodaoname = {"张三","李四","王五"};
@@ -47,6 +41,7 @@ public class App {
             String name = names.get(i);
             System.out.println("name = " + name);
         }
-        
+        //这种方式，是直接修改了姓名达到报到的功能。
+        //修改原本不应该修改的数据，是不允许的。报到和姓名不存在依赖关系的。
     }
 }
