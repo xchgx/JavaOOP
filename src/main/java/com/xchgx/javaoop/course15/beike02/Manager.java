@@ -6,12 +6,13 @@
 
 package com.xchgx.javaoop.course15.beike02;
 
-import java.util.ArrayList;
+
 
 /**
- * 留言数据类的操作功能类
+ * 留言数据类的操作功能类 Manager.java
  * @author 陈老师 现代管理学院
  */
+import java.util.ArrayList;
 public class Manager {//管理类 
     private ArrayList<Liuyan> liuyans = new ArrayList<>();//用来存放留言数据类集合
     private String txt;//留言原始数据。

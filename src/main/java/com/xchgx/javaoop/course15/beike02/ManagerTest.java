@@ -28,6 +28,9 @@ public class ManagerTest {
         manager.start();
         System.out.println(manager.show());
         
+        String fetchName = manager.fetchName("张三 李四 王五赵六 孙七周八");
+        System.out.println("fetchName = " + fetchName);
+        
         boolean liuyanRow = manager.isLiuyanRow("张三 :23:45");
         System.out.println("liuyanRow = " + liuyanRow);
         
@@ -42,5 +45,27 @@ public class ManagerTest {
         System.out.println("liuyanRow = " + liuyanRow4);
         boolean liuyanRow5 = manager.isLiuyanRow("12:33:54王五 123456:78:90");
         System.out.println("liuyanRow = " + liuyanRow5);
+        String test = "abc123";
+        boolean matches = test.matches("abc123");
+        System.out.println("matches = " + matches);
+        boolean matches1 = test.matches("abc\\d\\d\\d");
+        System.out.println("matches1 = " + matches1);
+        boolean matches2 = test.matches("abc\\d+");
+        System.out.println("matches2 = " + matches2);
+        boolean matches3 = test.matches(".*\\d*");
+        System.out.println("matches3 = " + matches3);
+        String[] split = test.split("1234");
+        System.out.println("split.length = " + split.length);
+        String[] split1 = test.split("c1"); 
+        System.out.println("split1.length = " + split1.length);
+        System.out.println("split1[0] = " + split1[0]);
+        System.out.println("split1[1] = " + split1[1]);
+        System.out.println("split2 = " + "abc123".split("c1")[0]);
+        
+        String str = "1a2b3c4";
+        String[] arr = str.split("\\d");
+        for(String s : arr){
+            System.out.println("s = " + s);
+        }
     }
 }
