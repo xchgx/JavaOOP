@@ -242,9 +242,12 @@ public class Data {
 //                String nextToken1 = newTokens.nextToken();
                 System.out.println("nextToken = " + nextToken);
 //                String[] split = nextToken1.split("\\|");
-                String[] split = nextToken.split("\\|");
-                if (split[1].contains(code)) {
-                    return split[0];
+//                String[] split = nextToken.split("\\|");
+            StringTokenizer stringTokenizer = new StringTokenizer(nextToken,"|");
+            String sheng = stringTokenizer.nextToken();
+            String code2 = stringTokenizer.nextToken(); 
+                if (code2.contains(code)) {
+                    return sheng;
                 } 
 //            }
         }

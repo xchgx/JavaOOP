@@ -12,7 +12,7 @@ package com.xchgx.javaoop.course16.beike01;
  */
 public class IdentityCardTest {
     public static void main(String[] args) {
-        IdentityCard identityCard = new IdentityCard("421102200001221235");
+        IdentityCard identityCard = new IdentityCard("000000100000000000");
         System.out.println("identityCard.isIdCard() = " + identityCard.isIdCard());
         String analysisSheng = identityCard.analysisSheng();
         System.out.println("analysisSheng = " + analysisSheng);

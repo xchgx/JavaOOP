@@ -28,13 +28,16 @@ public class IdentityCard {
     public String analysisSheng(){
         //42 1102200011111234
         String sheng = identityNumber.substring(0, 2);
-        switch(sheng){
-            case "41":return "河南";
-            case "42":return "湖北";
-            case "43":return "湖南";
-            case "44":return "广东";
-            default: return"未知省份";
-        }
+        Data data = new Data();
+        String find = data.find(sheng);
+        return  find;
+//        switch(sheng){
+//            case "41":return "河南";
+//            case "42":return "湖北";
+//            case "43":return "湖南";
+//            case "44":return "广东";
+//            default: return"未知省份";
+//        }
     }
     public String analysisBirthday(){
         //421102 20001112 1234
@@ -87,7 +90,5 @@ public class IdentityCard {
 
     public void setIdentityNumber(String identityNumber) {
         this.identityNumber = identityNumber;
-    }
-    
-    
+    } 
 }
