@@ -72,7 +72,7 @@ public class IdentityCard {
      * @return 
      */
     public String show(){
-        StringBuilder sb = new StringBuilder("");
+        StringBuffer sb = new StringBuffer("");
         sb.append("------------------------\n");
         sb.append("省份：").append(analysisSheng()).append("\n");
         sb.append("性别：").append(analysisSex()).append("\n");
