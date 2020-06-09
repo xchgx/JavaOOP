@@ -28,7 +28,7 @@ public class JLabelActionListener implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         JOptionPane.showMessageDialog(null, "你点击了一个有单击事件的菜单项");//弹出对话框
         //对标签组件的内容进行重写。
-        jLabel.setText("武器18号,武器19号，武器20号"); 
+        jLabel.setText("武器18号,武器19号,武器20号"); 
         
     }
 
