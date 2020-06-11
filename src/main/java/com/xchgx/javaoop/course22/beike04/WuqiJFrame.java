@@ -42,7 +42,7 @@ public class WuqiJFrame extends JFrame {
         btn.addActionListener(new ActionListener() {//添加单击事件
             @Override
             public void actionPerformed(ActionEvent e) {
-                int[] randomExtract = manager.randomExtract(4);
+                int[] randomExtract = manager.randomExtract(21);
     
                 JPanel pane = new JPanel();
                 for (int i = 0; i < randomExtract.length; i++) {
