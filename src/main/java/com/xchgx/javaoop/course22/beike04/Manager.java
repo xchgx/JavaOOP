@@ -44,11 +44,7 @@ public class Manager {
      * 随机抽到一个区间 
      * @return 
      */
-    public int[] randomExtract(int width){
-//        区间的范围，至少有3个，最多可以很多，当然不能太多，我们可以设定一个上限。
-//为了公平起见，给所有的客人都有相同数量的武器，这就表示区间的宽度是一致的，这里我们使用硬编码锁定，区间宽度是5个。
-//不同的是，区间的开始和结束是不一样的。
-//第一、首先保证，区间的开始一定在武器的数组范围内。那么第一个随机数就是[0,length-5)
+    public int[] randomExtract(int width){ 
         int left = (int)(Math.random()*(nwuqis.length-width));//这是区间的起点。
         int right = left+width;//区间的终点直接加上区间的宽度5即可。
         int[] qujian  = new int[width];
