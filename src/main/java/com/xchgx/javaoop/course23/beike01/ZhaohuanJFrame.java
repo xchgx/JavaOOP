@@ -49,18 +49,33 @@ public class ZhaohuanJFrame extends JFrame {
             public void actionPerformed(ActionEvent e) { //单击事件触发的方法
                 //随机抽取区间,这里一定要调用Manager对象了
                 int[] wuqis = manager.randomExtract(4);//随机抽
+//                int[] finded = manager.findTriangle(wuqis);
+//                System.out.println("finded.length = " + finded.length);
                 panel.removeAll();//把容器中的所有组件都删除。
+//                JPanel p = new JPanel();
                 for (int i = 0; i < wuqis.length; i++) {
                     int wq = wuqis[i];
                     JButton b = new JButton("武器" + wq + "号");
+//                    if (manager.findedContain(finded, i)) {//如果是三角形的一把就，设置为绿色背景
+//                        b.setBackground(Color.green);
+//                    }
                     b.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {
-                            JOptionPane.showMessageDialog(null, wq);
+                            JButton button = (JButton) e.getSource();
+//                            button.setFont(new Font("宋体", 0, 20));
+                            button.setEnabled(false);
+                            button.setText(wq + "号 就绪");
+                            zhaohuanReady.add(wq);
+                            if (zhaohuanReady.size() == 3) {
+                                zhaohuanStart();
+                            }
+//                            JOptionPane.showMessageDialog(null, wq);
                         }
                     });
                     panel.add(b);
                 }
+//                panel.add(p);//添加到中间层面板中
                 panel.revalidate();//刷新
             }
         });
