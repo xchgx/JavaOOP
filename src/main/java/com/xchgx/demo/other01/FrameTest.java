@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.xchgx.javaoop.other01;
+package com.xchgx.demo.other01;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

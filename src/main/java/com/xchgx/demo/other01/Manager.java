@@ -4,19 +4,17 @@
  * and open the template in the editor.
  */
 
-package com.xchgx.javaoop.other01;
+package com.xchgx.demo.other01;
 
 /**
  *
  * @author 陈老师 现代管理学院
  */
-public class Test3 {
-    public static void receive(int a){
-        a = 100;
-    }
+public class Manager {
     public static void main(String[] args) {
-        int b = 1;
-        receive(b);
-        System.out.println("b = " + b);
+        int[] arr = {1,3,5,7};
+        for(int i : arr){
+            System.out.println(i);
+        }
     }
 }

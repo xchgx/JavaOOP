@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.xchgx.javaoop.other02;
+package com.xchgx.demo.other02;
 
 import java.io.BufferedReader;
 import java.io.IOException;
