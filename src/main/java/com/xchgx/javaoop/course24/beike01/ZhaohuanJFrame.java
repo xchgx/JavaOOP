@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.xchgx.javaoop.course23.beike01;
+package com.xchgx.javaoop.course24.beike01;
 
 import java.awt.Color;
 import java.awt.HeadlessException;
@@ -49,16 +49,17 @@ public class ZhaohuanJFrame extends JFrame {
             public void actionPerformed(ActionEvent e) { //单击事件触发的方法
                 //随机抽取区间,这里一定要调用Manager对象了
                 int[] wuqis = manager.randomExtract(4);//随机抽
-//                int[] finded = manager.findTriangle(wuqis);
+                int[] finded = manager.findTriangle(wuqis);
 //                System.out.println("finded.length = " + finded.length);
                 panel.removeAll();//把容器中的所有组件都删除。
 //                JPanel p = new JPanel();
                 for (int i = 0; i < wuqis.length; i++) {
                     int wq = wuqis[i];
                     JButton b = new JButton("武器" + wq + "号");
-//                    if (manager.findedContain(finded, i)) {//如果是三角形的一把就，设置为绿色背景
-//                        b.setBackground(Color.green);
-//                    }
+                    if (manager.findedContain(finded, wq)) {//如果是三角形的一把就，设置为绿色背景
+                        b.setBackground(Color.PINK);
+                    }
+                     
                     b.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {

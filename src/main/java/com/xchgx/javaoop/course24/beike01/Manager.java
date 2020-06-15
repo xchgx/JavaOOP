@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.xchgx.javaoop.course23.beike01;
+package com.xchgx.javaoop.course24.beike01;
 
-import java.awt.Color;
 import java.util.ArrayList;
 
 /**
@@ -83,9 +82,9 @@ public class Manager {
                 for (int k = j + 1; k < arr.length; k++) {
                     boolean zhaohuan = zhaohuan(arr[i], arr[j], arr[k]);
                     if (zhaohuan) {
-                        finded[0] = i;
-                        finded[1] = j;
-                        finded[2] = k;
+                        finded[0] = arr[i];
+                        finded[1] = arr[j];
+                        finded[2] = arr[k];
                         return finded;
                     }
                 }
@@ -94,10 +93,13 @@ public class Manager {
         return null;
     }
 
-    public boolean findedContain(int[] finded, int i ) {
+    public boolean findedContain(int[] finded, int wq ) {
+        if(finded==null){
+            return false;
+        }
         for (int j = 0; j < finded.length; j++) {
             int k = finded[j]; 
-            if (k == i) {
+            if (k == wq) {
                 return true;//包含，是找到的三角形武器中的一把
             }
         }
