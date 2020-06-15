@@ -19,6 +19,11 @@ public class Test {
         //输入: 一堆武器
         //输出：能召唤出金闪闪的三把武器
         //处理：搜索算法，找出符合条件的武器 findedJss
+        Manager manager = new Manager();
+        manager.madeNwuqi(10);
+        int[] randomExtract = {};
+        int[] findTriangle = manager.findTriangle(randomExtract);
         
+//        boolean findedContain = manager.findedContain(findTriangle, findTriangle[0]);
     }
 }

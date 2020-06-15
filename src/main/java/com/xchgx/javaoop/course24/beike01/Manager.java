@@ -81,6 +81,7 @@ public class Manager {
             for (int j = i + 1; j < arr.length - 1; j++) {
                 for (int k = j + 1; k < arr.length; k++) {
                     boolean zhaohuan = zhaohuan(arr[i], arr[j], arr[k]);
+                    System.out.println("搜索中..");
                     if (zhaohuan) {
                         finded[0] = arr[i];
                         finded[1] = arr[j];
