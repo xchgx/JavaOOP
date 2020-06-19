@@ -30,37 +30,12 @@ public class KeyListenerEventJFrame extends JFrame {
 
     private void start() {
         addKeyListener(new KeyListener() {
-            @Override
             public void keyTyped(KeyEvent e) {
                 System.out.println("按下某个键时调用此方法");
-//                int keyCode = e.getKeyCode();
-
             }
-
-            @Override
             public void keyPressed(KeyEvent e) {
                 System.out.println("键入某个键时调用此方法。");
-//                switch (e.getKeyChar()) {
-//                    case KeyEvent.VK_ENTER:
-//                        System.out.println("回车键被激活。即将进入神秘地带.");
-//                        break;
-//                    case KeyEvent.VK_W:
-//                        System.out.print("上");
-//                        break;
-//                    case KeyEvent.VK_S:
-//                        System.out.print("下");
-//                        break;
-//                    case KeyEvent.VK_A:
-//                        System.out.print("左");
-//                        break;
-//                    case KeyEvent.VK_D:
-//                        System.out.print("右");
-//                        break;
-//                }
-
             }
-
-            @Override
             public void keyReleased(KeyEvent e) {
                 System.out.println("释放某个键时调用此方法。");
             }
