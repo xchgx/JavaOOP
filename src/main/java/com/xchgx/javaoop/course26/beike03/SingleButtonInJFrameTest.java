@@ -7,6 +7,8 @@ package com.xchgx.javaoop.course26.beike03;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -36,7 +38,7 @@ public class SingleButtonInJFrameTest extends JFrame {
             buttons[i].addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    cardLayout.show(cards, cname);
+//                    cardLayout.show(cards, cname);
 //                    cardLayout.next(cards);
                 }
             });
@@ -47,8 +49,10 @@ public class SingleButtonInJFrameTest extends JFrame {
 
     private void start() {
 //        setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
-        setLayout(null);
-        buttons[0].setBounds(0,0,getWidth(),getHeight());
+//        setLayout(null);
+//        setLayout(new FlowLayout());
+//        buttons[0].setBounds(0, 0, getWidth(), getHeight());
+//           buttons[0].setPreferredSize(new Dimension(getWidth(), getHeight()));
         getContentPane().add(buttons[0]);
 
     }
