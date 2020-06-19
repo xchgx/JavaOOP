@@ -30,15 +30,12 @@ public class FocusListenerEventJFrame extends JFrame {
     }
 
     private void start() {
-        JTextField text = new JTextField();
         JTextField text2 = new JTextField();
+        JTextField text = new JTextField();
         text.addFocusListener(new FocusListener() {
-            @Override
             public void focusGained(FocusEvent e) {
                 System.out.println("获得了焦点");
             }
-
-            @Override
             public void focusLost(FocusEvent e) {
                 System.out.println("失去焦点");
             }
