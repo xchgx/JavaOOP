@@ -71,11 +71,16 @@ public class QQAndSystemConfigJFrame extends JFrame {
     }
     private void initP2(){
         p2 = new JPanel(new GridLayout(3,1));//第2个中间层容器 通用设置
-        JPanel pp1 = new JPanel(new GridLayout(2, 1));
+        JPanel pp1 = new JPanel(new GridLayout(0, 1));//如果行是0的话，就自动增加行
         pp1.setBorder(BorderFactory.createTitledBorder("搜索内容"));
         pp1.add(new JRadioButton("在搜索的位置搜索文件名和内容"));
         pp1.add(new JRadioButton("在搜索的位置搜索文件名和内容"));
-        JPanel pp2 = new JPanel();
+        pp1.add(new JRadioButton("在搜索的位置搜索文件名和内容")); 
+        JPanel pp2 = new JPanel(new GridLayout(0, 1));
+        pp2.setBorder(BorderFactory.createTitledBorder("搜索内容"));
+        pp2.add(new JRadioButton("在搜索的位置搜索文件名和内容"));
+        pp2.add(new JRadioButton("在搜索的位置搜索文件名和内容"));
+        pp2.add(new JRadioButton("在搜索的位置搜索文件名和内容")); 
         JPanel pp3 = new JPanel();
         
         p2.add(pp1);
