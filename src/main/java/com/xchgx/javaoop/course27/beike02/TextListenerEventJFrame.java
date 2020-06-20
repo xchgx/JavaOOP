@@ -10,6 +10,7 @@ import java.awt.TextField;
 import java.awt.event.TextEvent;
 import java.awt.event.TextListener;
 import javax.swing.JFrame;
+import javax.swing.JTextField;
 
 /**
  * 文本事件窗体
@@ -38,6 +39,9 @@ public class TextListenerEventJFrame extends JFrame {
                 System.out.println("文本发生改变："+e.getSource().toString());
             }
         });
+        
+        JTextField text = new JTextField();
+        
         getContentPane().add(textField);
     }
 
