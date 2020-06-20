@@ -38,7 +38,7 @@ public class KeyListenerEventJFrame extends JFrame {
             }
             public void keyReleased(KeyEvent e) {
                 System.out.println("释放某个键时调用此方法。");
-            }
+            } 
         });
     }
 
