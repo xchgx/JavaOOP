@@ -36,7 +36,7 @@ public class ActionListenerEventJFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("单击事件");
             }
-        });
+        }); 
         getContentPane().add(b);
     }
 
