@@ -31,7 +31,7 @@ public class 贪吃蛇 extends JFrame {
     private void initWindow() {//初始化窗体设置
         setTitle("计算器窗体");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 500);
+        setSize(600, 600);
         setLocationRelativeTo(null);
     }
 
@@ -45,8 +45,13 @@ public class 贪吃蛇 extends JFrame {
 
         addKeyListener(new KeyAdapter() {//给窗体添加键盘事件
             @Override
-            public void keyPressed(KeyEvent e) {//当监听到键盘按下的事件，就执行这个方法
+            public void keyPressed(KeyEvent e) { //当监听到键盘按下的事件，就执行这个方法
+                int keyCode = e.getKeyCode();
+                System.out.println("keyCode = " + keyCode);
+                int keyLocation = e.getKeyLocation();
+                System.out.println("keyLocation = " + keyLocation);
                 char keyChar = e.getKeyChar();//获得按下的键盘字符
+                System.out.println("keyChar = " + keyChar);
                 switch (keyChar) {//判断按下的是什么字符
                     case 'a'://如果是字符a
                         x -= 10;//计算贪吃蛇下一步到达的x坐标
